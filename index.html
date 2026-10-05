@@ -32,7 +32,9 @@
     .hero{min-height:72vh;display:grid;place-items:center;padding:5rem 1.25rem;background:
       radial-gradient(circle at 20% 20%,rgba(231,201,157,.45),transparent 35%),
       radial-gradient(circle at 80% 70%,rgba(196,123,74,.12),transparent 35%)}
-    .hero-inner{max-width:900px;text-align:center}
+    .hero-inner{max-width:1100px;text-align:center}
+    .hero-photo{margin:2.2rem auto 0;max-width:1050px;border-radius:24px;overflow:hidden;box-shadow:0 18px 50px rgba(31,42,36,.18)}
+    .hero-photo img{display:block;width:100%;height:auto;max-height:620px;object-fit:cover}
     .eyebrow{font-size:.85rem;letter-spacing:.2em;color:var(--accent);font-weight:700}
     h1{font-size:clamp(3rem,9vw,6.5rem);line-height:1.05;margin:.4rem 0 1rem;letter-spacing:.06em}
     .lead{font-size:clamp(1rem,2.4vw,1.3rem);color:#454b46;max-width:680px;margin:0 auto 2rem}
@@ -65,6 +67,8 @@
       nav{display:none}
       .cards,.info{grid-template-columns:1fr}
       .hero{min-height:65vh;padding:4rem 1rem}
+      .hero-photo{margin-top:1.6rem;border-radius:16px}
+      .hero-photo img{max-height:none}
       section{padding:3.5rem 1rem}
     }
   </style>
@@ -111,6 +115,9 @@
         <div class="eyebrow">BOUKEN NO TSUZUKI</div>
         <h1>冒険のつづき</h1>
         <p class="lead">岡崎市橋目町にある飲食店。<br>今日の食事が、あなたの「つづき」になりますように。</p>
+        <figure class="hero-photo">
+          <img src="外観.jpg" alt="冒険のつづきの店舗外観。岡崎市橋目町にある飲食店の入口と看板" width="1170" height="780" fetchpriority="high">
+        </figure>
         <div class="buttons">
           <a class="btn primary" href="tel:0564734200">電話する</a>
           <a class="btn light" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%B2%A1%E5%B4%8E%E5%B8%82%E6%A9%8B%E7%9B%AE%E7%94%BA%E6%9F%B3%E3%83%B6%E5%9D%AA24%20%E3%83%9F%E3%82%AD%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2105">Googleマップで見る</a>
